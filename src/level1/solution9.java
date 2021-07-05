@@ -1,5 +1,7 @@
 package level1;
 
+import java.util.Arrays;
+
 // 음양 더하기
 public class solution9 {
 	
@@ -10,7 +12,7 @@ public class solution9 {
         	// 양수면 그대로 더하고 음수면 *(-1) 하여 더한다.
         	answer = (signs[i] == true) ? answer+absolutes[i] : answer+absolutes[i] *(-1);
         }
-		
+		Arrays.sort(absolutes);
 		return answer;
 	}
 }
