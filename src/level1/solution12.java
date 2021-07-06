@@ -25,6 +25,7 @@ public class solution12 {
         return answer;
 	}
 	
+	// 다른 사람의 풀이 -> 코드는 간단하나 시간이 오래걸린다.
 	public static int otherPeople(int n) {
 		
         String a = "";
