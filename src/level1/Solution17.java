@@ -1,8 +1,7 @@
-package practice;
+package level1;
 
-import java.util.Arrays;
+public class Solution17 {
 
-public class Test {
 	public static void main(int n, String s) {
 		
 		String answer = "";
@@ -53,5 +52,4 @@ public class Test {
 	    }
 	        return result;
 	}
-
 }
